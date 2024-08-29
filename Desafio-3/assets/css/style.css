@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+
+body {
+    background-color: #000000;
+    color: white;
+    font-family: 'raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-weight: normal;
+    font-size: 50px;
+    padding: 1%;
+}
+
+.seccion-imagen img {
+    width: 100%;
+}
+
+.seccion-definicion {
+    display: flow-root;
+}
+
+.seccion-definicion img {
+    float: right;
+    padding: 3%;
+    width: 45%;
+    height: 237px;
+}
+
+.seccion-definicion div {
+    padding: 2% 8%;
+}
+
+.seccion-definicion div p {
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.seccion-caracteristicas {
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 5%;
+}
+
+.seccion-caracteristicas h1 {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.seccion-caracteristicas div {
+    display: inline-block;
+    width: 33%;
+}
+
+.seccion-caracteristicas div i {
+    font-size: 50px;
+    padding: 10% 0% 3%;
+}
+
+.seccion-caracteristicas div p {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.seccion-galeria {
+    padding: 5%;
+}
+
+.seccion-galeria img {
+    display: inline-block;
+    width: 31%;
+    height: 202px;
+    margin: 1%;
+}
+
+footer {
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 1%;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(216, 214, 214);
+}
